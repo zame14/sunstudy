@@ -1,0 +1,392 @@
+/*
+ Theme Name:   Sun Study
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       A-Z Web Solutions Ltd
+ Author URI:   http://www.azwebsolutions.co.nz
+ Template:     understrap
+ Version:      0.3.5
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child
+*/
+body {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: #777777;
+}
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: #77ad1b;
+}
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+p {
+    margin-bottom: 10px;
+}
+.wrapper {
+    overflow: hidden;
+}
+.form-control {
+    border-radius: 0;
+}
+.page-title {
+    background-color: #f69320;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.page-title h1 {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+#top {
+    background-color: #678182;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+#top a {
+    color: #ffffff;
+}
+#top span {
+    color: #77ad1b;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+#top ul {
+    display: inline-block;
+}
+#top ul li {
+    position: relative;
+    padding-left: 25px;
+    display: inline-block;
+}
+#top ul li:first-child {
+    margin-right: 20px;
+}
+#header {
+    padding-top: 10px;
+}
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    width: 400px;
+}
+.home-banner-wrapper {
+    height: 800px;
+    border-top: 1px solid #ffffff;
+}
+.home-banner-wrapper > .wpb_column {
+    background-color: rgba(0,0,0,0.1);
+}
+.home-banner-wrapper h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eb2030;
+    text-shadow: 1px 1px 0 #707070;
+}
+.home-banner-wrapper h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 1px 1px 0 #707070;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section.grey {
+    background-color: #f4f4f4;
+}
+.home .wpb_content_element {
+    margin-bottom: 0;
+}
+.vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner {
+    padding-top: 0 !important;
+}
+#lg-menu-wrapper {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    background-color: #f8f8f8;
+    height: 80px;
+    margin-top: 10px;
+}
+#mega-menu-wrap-primary #mega-menu-primary {
+    text-align: center;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    color: #303030;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-parent > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-toggle-on > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:focus {
+    color: #f69320;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+    font-size: 16px;
+}
+.logo-wrapper {
+    text-align: center;
+}
+.intro-wrapper p {
+    font-size: 26px;
+    line-height: 36px;
+}
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: #f69320;
+    border-color: #f69320;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:hover, .btn-primary:hover {
+    background-color: #eb2030;
+    border-color: #eb2030;
+    color: #ffffff;
+}
+.nopadding {
+    padding: 0;
+}
+.intro-wrapper .btn {
+    margin-top: 20px;
+}
+.section h2 {
+    margin-bottom: 30px;
+}
+.option-tile {
+    text-align: center;
+}
+.option-tile .title {
+    background-color: #678182;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 0 0 5px 5px;
+}
+.option-tile .image-wrapper img {
+    border-radius: 5px 5px 0 0;
+}
+.option-tile a {
+    display: block;
+}
+.consideration-tile {
+    text-align: center;
+}
+.consideration-tile a {
+    display: block;
+    background-color: #ffffff;
+    color: #666666;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+.consideration-tile span {
+    font-size: 70px;
+    color: #f69320;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.contact-cta-wrapper {
+    height:300px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.home .contact-cta-wrapper {
+    margin-top: 0;
+    height: 400px;
+}
+.contact-cta-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    width: 100%;
+    height: auto;
+}
+.contact-cta-wrapper .cta-content-wrapper {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+}
+.contact-cta-wrapper .cta-content-wrapper h2 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+.contact-cta-wrapper .cta-content-wrapper p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.shading-images ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shading-images ul li {
+    width: 48%;
+    margin-bottom: 20px;
+}
+.floor-plans-wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+.blog-content-wrapper .entry-title a {
+    color: #000000;
+}
+.blog-content-wrapper .entry-meta {
+    margin-bottom: 10px;
+}
+.blog-image-wrapper {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.blog-image-wrapper img {
+    padding-right: 20px;
+}
+.blog-content-wrapper {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.blog article.post {
+    margin-bottom: 20px;
+}
+.blog-content-wrapper.hide {
+    display: block;
+    width: 100%;
+}
+.blog-image-wrapper.hide {
+    display: none;
+}
+.post .entry-meta {
+    margin-bottom: 10px;
+}
+#single-wrapper article.post img {
+    padding-bottom: 20px;
+}
+#single-wrapper #right-sidebar {
+    display: none;
+}
+.survey-form-group {
+    padding: 25px 10px;
+    background-color: #f4f4f4;
+}
+.survey-form-group .radio:first-child {
+    display: none;
+}
+.survey-form-group .radio label input[type="radio"] {
+    margin-right: 10px;
+}
+.survey-form-group label {
+    color: #000000;
+}
+.survey-form-group .radio label {
+    color: #333333;
+}
+.survey-form-group .sunlight-access-list {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.submit-btn-wrapper {
+    text-align: center;
+}
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer h3 {
+    margin-bottom: 30px;
+}
+#footer span {
+    color: #f69320;
+    margin-right: 5px;
+}
+#footer a {
+    color: #666666;
+}
+#footer address {
+    margin-bottom: 0;
+}
+#footer ul {
+    text-align: left;
+    display: inline-block;
+}
+#footer ul li {
+    margin-bottom: 10px;
+}
+#footer ul li:last-child {
+    margin-bottom: 0;
+}
+#footer .contact-details-wrapper {
+    text-align: right;
+}
+#footer .designnetwork-wrapper {
+    text-align: center;
+}
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #282828;
+}
+#copyright a {
+    color: #ff7f00;
+}
